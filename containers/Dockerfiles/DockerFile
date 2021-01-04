@@ -1,0 +1,21 @@
+FROM node:12
+
+ENV NODE_ENV production
+
+ENV NPM_CONFIG_LOGLEVEL warn
+
+ADD package.json /tmp/package.json
+
+RUN cd /tmp && npm install --production
+
+RUN mkdir -p /markWebApp && cp -a /tmp/node_modules /markWebApp
+
+WORKDIR /markWebApp
+COPY build/ /markWebApp
+# ADD . /markWebApp
+
+EXPOSE 8080
+
+ENTRYPOINT ["node", "app.js"]
+
+
