@@ -30,8 +30,6 @@ function fizzbuzzService() {
                 }
                 list.push(listItems);
             }
-
-            console.log('list:', list);
             resolve({
                 list
             });
