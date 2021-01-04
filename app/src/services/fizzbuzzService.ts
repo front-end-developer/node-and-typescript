@@ -1,7 +1,6 @@
 /**
  * Created by Mark Webley on 03/01/2021.
  */
-type stringNumber = string|number;
 
 const genericType = <T>(item: T): T => {
     return item;
