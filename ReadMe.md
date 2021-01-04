@@ -2,6 +2,9 @@ Mark Webley: test
 
 Repo: https://github.com/front-end-developer/node-and-typescript
 
+About:
+Nothing fancy just something experimental with node with typescript, & automated AWS CI / CD integration.
+
 usefulness:
 
 npm run dev
