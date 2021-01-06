@@ -1,4 +1,4 @@
-Mark Webley: test
+##### Mark Webley: test
 
 Repo: https://github.com/front-end-developer/node-and-typescript
 
@@ -19,6 +19,15 @@ npm run stop && npm run tsc && npm run dev
 ROUTES:
 
 http://localhost:3000
+
+
+
+
+##### Github / AWS Integration
+![Alt text](screenshots/aws-integration.png "List view")
+
+#### Github / AWS automation on CI / CD
+![Alt text](screenshots/aws-integration-code-pipeline.png "List view")
 
 
 NOTE:
